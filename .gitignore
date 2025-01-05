@@ -1,0 +1,113 @@
+# ===== Unity Specific =====
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+
+# Asset meta data should only be ignored when the corresponding asset is ignored
+*.asset.meta
+
+# ===== TextMeshPro =====
+/Assets/TextMesh Pro/Resources/Style Sheets/TMP Default Style.asset.meta
+
+# ===== Generated Files =====
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+
+# ===== Cache =====
+*.stackdump
+*.svd
+*[Dd]ebug/
+*.pdb
+*.mdb
+
+# ===== Unity Play Mode Test Results =====
+*.xml
+*.testresult
+
+# ===== Visual Studio Code =====
+.vscode/
+.vscode/*
+
+# ===== Rider =====
+.idea/
+*.sln.iml
+*.csproj.iml
+
+# ===== macOS Specific =====
+.DS_Store
+._*
+
+# ===== Windows Specific =====
+Thumbs.db
+Desktop.ini
+
+# ===== Linux Specific =====
+*.swp
+*.class
+
+# ===== Temporary and Backup Files =====
+*.bak
+*.backup
+*.tmp
+*.temp
+*.blend1
+*.blend2
+
+# ===== Logs and Reports =====
+*.log
+*.stackdump
+*.crash
+*.error
+
+# ===== Builds =====
+Build/
+Builds/
+*.apk
+*.unitypackage
+
+# ===== Unity Cloud Build =====
+[Uu]ser[Ss]ettings/
+
+# ===== IDEs =====
+# JetBrains Rider
+.idea/
+*.sln.iml
+*.csproj.iml
+# Visual Studio
+.vscode/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+
+# ===== Shader Cache =====
+*.shadercache
+
+# ===== Addressables Cache =====
+/Assets/AddressableAssetsData/*/*.bin*
+
+# ===== Collaborate Cache =====
+/Library/Collab/
+
+# ===== Plastic SCM =====
+/.plastic/
+
+# ===== Localization =====
+*.loc.meta
